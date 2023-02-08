@@ -1,0 +1,26 @@
+1. interface method: public xxx vs (no key word) xxx
+2. Optional 在哪用
+3. autowired throws exception?
+4. rest api "/rewards" two get method overloading
+5. Date in Order class, create in frontend?
+6. logger 写法，写在哪，在哪看
+7. @Transactional
+8. fetch, cascade 写在哪端应用在哪端？
+9. get all orders: 2 ways? 1.List<order_id> as Customer field;(how list store in database) 2. look up from database by customer_id
+// 10. @Bean Lite Mode
+11. entity manager two injection ways? @Query instead of entity manager?
+12. @Query 写的对不对
+13. 需不需要interface和class都加@Service
+14. 运算用 big decimal vs other type
+15. RewardServiceImpl inject multiple instances
+16. throws Exception/other type of Exception?
+17. 每个method都要throw exception? e.g. RewardServiceImpl amountToReward method
+18. getRewardByMonth, getTotalRewards 要不要check id存不存在, ValidationService 然后其他service inject?
+19. Controller 写不写 interface, 写不写逻辑
+20. getOrdersByCustomer in CustomizedOrderRepository, Query return List automatically?
+21. Unit test throws exception?
+22. unit test customerRepository is never used? compile time cannot identify usage?
+23. getReferenceById < findById? (getReferenceById don't hit db but will throw exceptions but return proxy(address of entity) instead of Optional<Entity>?)
+24. customized sql from jpa throw exception?
+
+TODO: IOC + qualifier
